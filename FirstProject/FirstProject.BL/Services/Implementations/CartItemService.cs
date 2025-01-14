@@ -1,91 +1,76 @@
-﻿using FirstProject.BL.Services.Abstractions;
-using FirstProject.DAL.Contexts;
+﻿using AutoMapper;
+using FirstProject.BL.DTOs.CartItemDtos;
+using FirstProject.BL.Services.Abstractions;
 using FirstProject.DAL.Models;
-using Microsoft.EntityFrameworkCore;
+using FirstProject.DAL.Repositories.Abstractions;
+using Microsoft.EntityFrameworkCore.Storage;
+using System.Net.WebSockets;
 
 namespace FirstProject.BL.Services.Implementations;
 
-public class CartItemService : ICartitemService
+
+public class CartItemService : ICartItemService
 {
-    private readonly AppDbContext _context;
+    private readonly IReadRepository<CartItem> _readRepo;
+    private readonly IWriteRepository<CartItem> _writeRepo;
+    private readonly IMapper _mapper;
 
-    public CartItemService(AppDbContext context)
+    public CartItemService(IReadRepository<CartItem> readRepo, IWriteRepository<CartItem> writeRepo, IMapper mapper)
     {
-        _context = context;
+        _readRepo = readRepo;
+        _writeRepo = writeRepo;
+        _mapper = mapper;
     }
 
-    public DbSet<CartItem> Table => _context.Set<CartItem>();   
-
-
-    public async Task CreateCartItemAsync(CartItem cartItem)
+    public async Task<CartItem> CreateAsync(CartItemCreateDto entityDto)
     {
-        await Table.AddAsync(cartItem);
-        int rows = await _context.SaveChangesAsync();   
-        if(rows!=1)
+        CartItem createdCart = _mapper.Map<CartItem>(entityDto);    
+        createdCart.CreatedAt = DateTime.UtcNow.AddHours(4); 
+        var createdEntity = await _writeRepo.CreateAsync(createdCart);
+        await _writeRepo.SaveChangeAsync();
+        return createdEntity;
+    }
+
+
+    public async Task<ICollection<CartItem>> GetAllAsync()
+    {
+        return await _readRepo.GetAllAsync();   
+    }
+
+    public async Task<CartItem> GetByIdAsync(int id)
+    {
+        if(!await _readRepo.IsExistsAsync(id))
         {
-            throw new Exception("Cart item cannot be added");
+            throw new Exception("Something went wrong");
         }
+        return await _readRepo.GetByIdAsync(id);
     }
 
-
-    public async Task<List<CartItem>> GetAllCartItemAsync()
+    public async Task<bool> SoftDeleteAsync(int id)
     {
-        List<CartItem> cartItem = await Table.ToListAsync();  
-        return cartItem;
+        var cartEntity = await _readRepo.GetByIdAsync(id);
+        _writeRepo.SoftDelete(cartEntity);
+        await _writeRepo.SaveChangeAsync();
+        return true;
     }
 
-
-    public async Task<CartItem> GetCartItemByIdAsync(int id)
+    public async Task<bool> UpdateAsync(int id, CartItemCreateDto entityDto)
     {
-        CartItem? cartItem = await Table.FindAsync(id);
-        if(cartItem is null)
-        {
-            throw new Exception($"Cart item is not found this id{id}");
-        }
-        return cartItem;
+        var cartEntity = await _readRepo.GetByIdAsync(id);
+        CartItem updatedCart = _mapper.Map<CartItem>(entityDto);
+        updatedCart.UpdatedAt = DateTime.UtcNow.AddHours(4);        
+        updatedCart.Id = id;    
+        _writeRepo.Update(updatedCart);
+        await _writeRepo.SaveChangeAsync();
+        return true;
     }
-
-
-    public async Task HardDeleteCartItemAsync(int id)
-    {
-        CartItem? cartItem = await Table.FindAsync(id);
-        if (cartItem is null)
-        {
-            throw new Exception($"Cart item is not found this id{id}");
-        }
-        Table.Remove(cartItem); 
-    }
-
-
-    public async Task SoftDeleteCartItemAsync(int id)
-    {
-        CartItem? cartItem = await table.SingleOrDefaultAsync(s => s.Id == id && !s.IsDeleted);  
-        if(cartItem is null)
-        {
-            throw new Exception($"Cart item is not found this id{id}");
-        }
-        cartItem.IsDeleted = true;
-        cartItem.UpdatedAt = DateTime.Now;
-
-        await _context.SaveChangesAsync();  
-    }
-
-
-    public async Task UpdateCartItemAsync(int id, CartItem cartItem)
-    {
-        if (cartItem.Id == id)
-        {
-            throw new Exception("Ids are not same");
-        }
-        CartItem? baseCartItem = await table.AsNoTracking().SingleOrDefaultAsync(s => s.Id == id && !s.IsDeleted);   
-        if (baseCartItem is null)
-        {
-            throw new Exception($"Cart item is not found this id{id}");
-        }
-
-        baseCartItem.UpdatedAt = DateTime.Now;
-        cartItem.CreatedAt = baseCartItem.CreatedAt;    
-        table.Update(cartItem); 
-        await _context.SaveChangesAsync();  
-    }
+    //public async Task<bool> EditAsync(int id, CartItemEditDto editDto)
+    //{
+    //    var cartEntity = await _readRepo.GetByIdAsync(id);
+    //    _mapper.Map(CartItemEditDto, editDto);
+    //    cartEntity.UpdatedAt = DateTime.UtcNow.AddHours(4);
+    //    _writeRepo.Update(cartEntity);
+    //    await _writeRepo.SaveChangeAsync();
+    //    return true;
+    //}
 }

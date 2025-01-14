@@ -1,11 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FirstProject.BL.Services.Implementations;
+using FirstProject.DAL.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FirstProject.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        
+
+        public  ActionResult Index()
         {
+         
             return View();
         }
     }

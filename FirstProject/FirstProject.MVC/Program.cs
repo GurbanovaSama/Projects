@@ -1,21 +1,23 @@
 using FirstProject.DAL.Contexts;
+using FirstProject.DAL.Repositories.Abstractions;
+using FirstProject.DAL.Repositories.Implementations;
 using Microsoft.EntityFrameworkCore;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 builder.Services.AddDbContext<AppDbContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"))
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("Asus"))
     );
 
 var app = builder.Build();
 
 
-
-
-app.UseStaticFiles();
 
 app.UseRouting();
 

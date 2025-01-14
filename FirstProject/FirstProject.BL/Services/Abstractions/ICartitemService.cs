@@ -1,14 +1,14 @@
-﻿using FirstProject.DAL.Models;
+﻿using FirstProject.BL.DTOs.CartItemDtos;
+using FirstProject.DAL.Models;
 
 namespace FirstProject.BL.Services.Abstractions;
 
-public interface ICartitemService
+public interface ICartItemService
 {
-    Task<List<CartItem>> GetAllCartItemAsync();   
-    Task<CartItem>  GetCartItemByIdAsync(int id);  
-    Task CreateCartItemAsync(CartItem cartItem);
-    Task SoftDeleteCartItemAsync(int id);
-    Task HardDeleteCartItemAsync(int id);
-    Task UpdateCartItemAsync(int id, CartItem cartItem);
-    
+    Task<ICollection<CartItem>> GetAllAsync();
+    Task<CartItem> CreateAsync(CartItemCreateDto entityDto);
+    Task<CartItem> GetByIdAsync(int id);
+    Task<bool> SoftDeleteAsync(int id);
+    Task<bool> UpdateAsync(int id, CartItemCreateDto entityDto);
+    //Task<bool> EditAsync(int id, CartItemEditDto editDto);
 }

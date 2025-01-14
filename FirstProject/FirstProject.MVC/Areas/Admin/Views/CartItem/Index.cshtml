@@ -1,0 +1,33 @@
+﻿@model ICollection<CartItem>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">ImagePath</th>
+            <th scope="col">CreatedAt</th>
+            <th scope="col">UpdatedAt</th>
+            <th scope="col">DeletedAt</th>
+            <th scope="col">IsDeleted</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(CartItem item in Model)
+        {
+            <tr>
+                <th scope=@item.Id></th>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td> <img src="~/admin/assets/img/@item.ImagePath"></td>
+                <td>@item.CreatedAt</td>
+                <td>@item.UpdatedAt</td>
+                <td>@item.DeletedAt</td>
+                <td>@item.IsDeleted</td>
+            </tr>
+        }
+     
+    </tbody>
+</table>

@@ -13,3 +13,19 @@ C:\Users\classtime\source\repos\FirstProject\FirstProject.BL\obj\Debug\net8.0\Fi
 C:\Users\classtime\source\repos\FirstProject\FirstProject.BL\obj\Debug\net8.0\refint\FirstProject.BL.dll
 C:\Users\classtime\source\repos\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.pdb
 C:\Users\classtime\source\repos\FirstProject\FirstProject.BL\obj\Debug\net8.0\ref\FirstProject.BL.dll
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.csproj.AssemblyReference.cache
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.AssemblyInfoInputs.cache
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.AssemblyInfo.cs
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.csproj.CoreCompileInputs.cache
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.sourcelink.json
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.dll
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\refint\FirstProject.BL.dll
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstProject.BL.pdb
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\bin\Debug\net8.0\FirstProject.BL.deps.json
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\bin\Debug\net8.0\FirstProject.BL.dll
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\bin\Debug\net8.0\FirstProject.BL.pdb
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\bin\Debug\net8.0\FirstProject.DAL.dll
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\bin\Debug\net8.0\FirstProject.DAL.pdb
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\FirstPro.025A5FB0.Up2Date
+C:\Users\Sema Gurbanova\Desktop\Projects\FirstProject\FirstProject.BL\obj\Debug\net8.0\ref\FirstProject.BL.dll

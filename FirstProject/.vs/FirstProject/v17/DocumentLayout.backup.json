@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\classtime\\source\\repos\\FirstProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C622A61C-BB45-426A-8E42-5FBD0338F59B}|FirstProject.DAL\\FirstProject.DAL.csproj|c:\\users\\classtime\\source\\repos\\firstproject\\firstproject.dal\\models\\base\\baseauiditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C622A61C-BB45-426A-8E42-5FBD0338F59B}|FirstProject.DAL\\FirstProject.DAL.csproj|solutionrelative:firstproject.dal\\models\\base\\baseauiditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\sema gurbanova\\desktop\\projects\\firstproject\\firstproject.mvc\\areas\\admin\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\areas\\admin\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C622A61C-BB45-426A-8E42-5FBD0338F59B}|FirstProject.DAL\\FirstProject.DAL.csproj|c:\\users\\classtime\\source\\repos\\firstproject\\firstproject.dal\\models\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C622A61C-BB45-426A-8E42-5FBD0338F59B}|FirstProject.DAL\\FirstProject.DAL.csproj|solutionrelative:firstproject.dal\\models\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\sema gurbanova\\desktop\\projects\\firstproject\\firstproject.mvc\\areas\\admin\\views\\cartitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\areas\\admin\\views\\cartitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\classtime\\source\\repos\\firstproject\\firstproject.mvc\\repositories\\implementations\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\repositories\\implementations\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C622A61C-BB45-426A-8E42-5FBD0338F59B}|FirstProject.DAL\\FirstProject.DAL.csproj|c:\\users\\sema gurbanova\\desktop\\projects\\firstproject\\firstproject.dal\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C622A61C-BB45-426A-8E42-5FBD0338F59B}|FirstProject.DAL\\FirstProject.DAL.csproj|solutionrelative:firstproject.dal\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\classtime\\source\\repos\\firstproject\\firstproject.mvc\\repositories\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\repositories\\abstractions\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\sema gurbanova\\desktop\\projects\\firstproject\\firstproject.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\sema gurbanova\\desktop\\projects\\firstproject\\firstproject.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|c:\\users\\sema gurbanova\\desktop\\projects\\firstproject\\firstproject.mvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B1247B4-CBC2-4EDA-948E-DCFD6E913F93}|FirstProject.MVC\\FirstProject.MVC.csproj|solutionrelative:firstproject.mvc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +34,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseAuiditableEntity.cs",
-              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.DAL\\Models\\Base\\BaseAuiditableEntity.cs",
-              "RelativeDocumentMoniker": "FirstProject.DAL\\Models\\Base\\BaseAuiditableEntity.cs",
-              "ToolTip": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.DAL\\Models\\Base\\BaseAuiditableEntity.cs",
-              "RelativeToolTip": "FirstProject.DAL\\Models\\Base\\BaseAuiditableEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "FirstProject.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Program.cs",
+              "RelativeToolTip": "FirstProject.MVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:47:21.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.DAL\\Models\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "FirstProject.DAL\\Models\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.DAL\\Models\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "FirstProject.DAL\\Models\\Base\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:45:51.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.MVC\\Repositories\\Implementations\\ReadRepository.cs",
-              "RelativeDocumentMoniker": "FirstProject.MVC\\Repositories\\Implementations\\ReadRepository.cs",
-              "ToolTip": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.MVC\\Repositories\\Implementations\\ReadRepository.cs",
-              "RelativeToolTip": "FirstProject.MVC\\Repositories\\Implementations\\ReadRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:22:20.386Z",
+              "WhenOpened": "2025-01-14T05:36:45.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.MVC\\Repositories\\Abstractions\\IReadRepository.cs",
-              "RelativeDocumentMoniker": "FirstProject.MVC\\Repositories\\Abstractions\\IReadRepository.cs",
-              "ToolTip": "C:\\Users\\classtime\\source\\repos\\FirstProject\\FirstProject.MVC\\Repositories\\Abstractions\\IReadRepository.cs",
-              "RelativeToolTip": "FirstProject.MVC\\Repositories\\Abstractions\\IReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FirstProject.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FirstProject.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T13:21:54.536Z",
+              "WhenOpened": "2025-01-14T05:33:09.058Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.DAL\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "FirstProject.DAL\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.DAL\\Models\\CartItem.cs",
+              "RelativeToolTip": "FirstProject.DAL\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T05:21:01.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Areas\\Admin\\Views\\CartItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "FirstProject.MVC\\Areas\\Admin\\Views\\CartItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Areas\\Admin\\Views\\CartItem\\Index.cshtml",
+              "RelativeToolTip": "FirstProject.MVC\\Areas\\Admin\\Views\\CartItem\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T04:42:22.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Areas\\Admin\\Controllers\\CartItemController.cs",
+              "RelativeDocumentMoniker": "FirstProject.MVC\\Areas\\Admin\\Controllers\\CartItemController.cs",
+              "ToolTip": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Areas\\Admin\\Controllers\\CartItemController.cs",
+              "RelativeToolTip": "FirstProject.MVC\\Areas\\Admin\\Controllers\\CartItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T04:13:08.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FirstProject.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Sema Gurbanova\\Desktop\\Projects\\FirstProject\\FirstProject.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FirstProject.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T05:17:30.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
