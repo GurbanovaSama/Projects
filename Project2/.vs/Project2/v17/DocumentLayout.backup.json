@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\classtime\\source\\repos\\Project2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09E98DF2-C380-45D4-8070-42C4459789DE}|Project2.MVC\\Project2.MVC.csproj|c:\\users\\classtime\\source\\repos\\project2\\project2.mvc\\areas\\admin\\views\\technician\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E98DF2-C380-45D4-8070-42C4459789DE}|Project2.MVC\\Project2.MVC.csproj|solutionrelative:project2.mvc\\areas\\admin\\views\\technician\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E98DF2-C380-45D4-8070-42C4459789DE}|Project2.MVC\\Project2.MVC.csproj|c:\\users\\classtime\\source\\repos\\project2\\project2.mvc\\areas\\admin\\views\\technician\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E98DF2-C380-45D4-8070-42C4459789DE}|Project2.MVC\\Project2.MVC.csproj|solutionrelative:project2.mvc\\areas\\admin\\views\\technician\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064CC232-55DD-45C4-989D-3661281775E3}|Project2.BL\\Project2.BL.csproj|c:\\users\\classtime\\source\\repos\\project2\\project2.bl\\dtos\\technicianpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{064CC232-55DD-45C4-989D-3661281775E3}|Project2.BL\\Project2.BL.csproj|solutionrelative:project2.bl\\dtos\\technicianpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58A0955C-79A2-4F14-AA1F-892794B0AFE3}|Project2.DAL\\Project2.DAL.csproj|c:\\users\\classtime\\source\\repos\\project2\\project2.dal\\models\\technician.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58A0955C-79A2-4F14-AA1F-892794B0AFE3}|Project2.DAL\\Project2.DAL.csproj|solutionrelative:project2.dal\\models\\technician.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project2.MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "ToolTip": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "RelativeToolTip": "Project2.MVC\\Areas\\Admin\\Views\\Technician\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T14:32:03.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TechnicianPostDto.cs",
+              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.BL\\DTOs\\TechnicianPostDto.cs",
+              "RelativeDocumentMoniker": "Project2.BL\\DTOs\\TechnicianPostDto.cs",
+              "ToolTip": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.BL\\DTOs\\TechnicianPostDto.cs",
+              "RelativeToolTip": "Project2.BL\\DTOs\\TechnicianPostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:14:04.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project2.MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "ToolTip": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "RelativeToolTip": "Project2.MVC\\Areas\\Admin\\Views\\Technician\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T13:55:03.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Technician.cs",
+              "DocumentMoniker": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.DAL\\Models\\Technician.cs",
+              "RelativeDocumentMoniker": "Project2.DAL\\Models\\Technician.cs",
+              "ToolTip": "C:\\Users\\classtime\\source\\repos\\Project2\\Project2.DAL\\Models\\Technician.cs",
+              "RelativeToolTip": "Project2.DAL\\Models\\Technician.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:43:14.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
